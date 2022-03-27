@@ -11,6 +11,7 @@
   inputs.src-bipbuffer-master.ref   = "refs/heads/master";
   inputs.src-bipbuffer-master.owner = "MarcAzar";
   inputs.src-bipbuffer-master.repo  = "BipBuffer";
+  inputs.src-bipbuffer-master.dir   = "";
   inputs.src-bipbuffer-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
